@@ -1,0 +1,5 @@
+import AFNetworking
+
+class VMSIP {
+    
+}
