@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - linphone-sdk (4.4.34):
+    - linphone-sdk/all-frameworks (= 4.4.34)
+    - linphone-sdk/app-extension (= 4.4.34)
+    - linphone-sdk/app-extension-swift (= 4.4.34)
+    - linphone-sdk/basic-frameworks (= 4.4.34)
+    - linphone-sdk/swift (= 4.4.34)
+  - linphone-sdk/all-frameworks (4.4.34)
+  - linphone-sdk/app-extension (4.4.34)
+  - linphone-sdk/app-extension-swift (4.4.34):
+    - linphone-sdk/app-extension
+  - linphone-sdk/basic-frameworks (4.4.34):
+    - linphone-sdk/app-extension
+  - linphone-sdk/swift (4.4.34):
+    - linphone-sdk/app-extension-swift
+    - linphone-sdk/basic-frameworks
+  - VMSIP (0.1.0):
+    - Alamofire
+    - linphone-sdk
+
+DEPENDENCIES:
+  - VMSIP (from `../`)
+
+SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  VMSIP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  linphone-sdk: de51c7668cfd842d02a82a0d870a34a5b8d1e480
+  VMSIP: 047a11b9e4a34bbdf90ee2fa3b3b633cb963ebf3
+
+PODFILE CHECKSUM: 6370d98ab9b31501d0e3c352356a185eecc97f0c
+
+COCOAPODS: 1.9.1

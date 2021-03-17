@@ -1,0 +1,1374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE555C118C56CE502222432A9CEF6 /* ParameterEncoding.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27ADF7EA0D364DC36463A4D897B24B4 /* Notifications.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8206A6E1D6CBD788355792D4AB22A8A /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024DCC36C616C97E1DF329092C63E00 /* MultipartFormData.swift */; };
+		27305F0A9C4A6B42CED06784CFC68BA4 /* LinphoneWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539005CE46E218BA593D08083E063227 /* LinphoneWrapper.swift */; };
+		277F74054175E1C92FB518A958B1C65C /* Pods-VMSIP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFDDE96BDE7EE0867ECC28B7C8EE375 /* Pods-VMSIP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7532E959D2042672F7AC4D9AC11DFE /* SessionDelegate.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CC22DD388E261ACAE2854F4E301ED /* NetworkReachabilityManager.swift */; };
+		382A96D16C0AC66842510E2A2F31A364 /* linphonesw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88EC869665DD155422E1870D6E1FE26 /* linphonesw.framework */; };
+		49DF06F6A44506D8EF4740438679D332 /* linphone-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D4867BA78D12B60F06C440BA13F1AD /* linphone-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C376A6CB1C4F8B5281E8AE8B27FBC2B /* belle-sip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AD2D5132629989A5098FC3337790D3 /* belle-sip.framework */; };
+		52667155473FDCE3FB7D884772A706B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A8321325EC6AD2CA32C345951CD5 /* Validation.swift */; };
+		56EF6E0847AE7BF17A32B234B4176A01 /* linphone-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F88E65472045ACCE435C4425A0E2D /* linphone-sdk-dummy.m */; };
+		57233C6A4B705C8CDC002BF837DB56B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */; };
+		5BC215A55B221D5C6C28A4EE40A92F3D /* Pods-VMSIP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DE76DD6759499D549015C421633C75 /* Pods-VMSIP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4F829D092C715851543F7F5C3CEC43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92AA59CE327B0B014ED8FE3C3B7167 /* Result.swift */; };
+		75E3392C317BD85BE5C4EB738677D8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02910467AB58825B3E25D749C42AA01 /* UIKit.framework */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */; };
+		80426A42083CF3C53B864F36FA822759 /* VMSIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC1D02748920ABE559039D857DBE2C /* VMSIP.swift */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9B538E7ED5DFF0A1F74745C363122 /* AFError.swift */; };
+		847298D4F4B3A4B1D5E31CED09D1DC8E /* bctoolbox-ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4068C158007D74C42C7A487F0D1E0A94 /* bctoolbox-ios.framework */; };
+		8F2C35BD2AB3A649B49491DD9D85E61E /* Pods-VMSIP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAED8B190D21A31451E4FF285A553E6 /* Pods-VMSIP_Tests-dummy.m */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE52F75CAB5B8189EDFDF996DAC57C /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DA29AE4B60FE6E316E4D55B7E049A /* Timeline.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BCC2994783F3FB59F69396CEC3B3C4 /* Request.swift */; };
+		A5A5BEF14E349B88E09968B3BA79F893 /* bctoolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C9A2E6F52F81A4952EB0D2950912C0 /* bctoolbox.framework */; };
+		AB91F1B84B9EA0E84B37E552FBC04920 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEE1BECF0C31CD7C30371F411C8E33E /* Alamofire.framework */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13646D3977A26DF8F5A65648CA87526 /* TaskDelegate.swift */; };
+		B85F079EF12268BE702C4D97ED999EA6 /* Pods-VMSIP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C99AE8EB5304A9E6CF2D5819C7DD323 /* Pods-VMSIP_Example-dummy.m */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477D00EB38D3C5DD91FD655CF05E685C /* Alamofire.swift */; };
+		D15F7FD3E5BDCFB53B0F5C01267C7E03 /* VMSIP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEEA5D9343EE4592AEF93BEDD9490 /* VMSIP-dummy.m */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C33C65CA8A13E602254571986240B6 /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279183504F2FD6AFB408D9EC45663C /* Response.swift */; };
+		DDB6BE43DA6476FF657E3C3204F9B660 /* VMSIP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC3032F638F9C983A1FECC83FF70E0C /* VMSIP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4DA10DF3A6A3DC4033FD277A60024 /* ResponseSerialization.swift */; };
+		E7B332D0E292B640A060307972236263 /* liblinphone_tester in Resources */ = {isa = PBXBuildFile; fileRef = 13BF89D4C4030861BB8423F3B1CD7368 /* liblinphone_tester */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E8F80075F35ADBFB5F84301564027 /* ServerTrustPolicy.swift */; };
+		F6B4C1EF26754FEDA1E49889FE5D91AF /* linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F794D339EE879CD2C355E512576A5DFD /* linphone.framework */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B09EACD8E8363C9EDA2AF60F24D104 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A82FA45D9EC78CD1AAB7067CDFDCFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D2CA0E61D973DACD7A1D0C73E0304C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21921160E4B0CD327C6FFF50C9BE1F64;
+			remoteInfo = "linphone-sdk";
+		};
+		6C2A226DA8F22E50B40B1EAD3F9FE507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21921160E4B0CD327C6FFF50C9BE1F64;
+			remoteInfo = "linphone-sdk";
+		};
+		AFD020CDE1E10501BA048EDD801E4AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		BDAADE66CEC70AF2835E3282050563C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3E54EB93DB85EBE169D92854667E96;
+			remoteInfo = VMSIP;
+		};
+		C7BE8D6A07C4E229091F83EEF76C2604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		DCA3603F530F11F09DD9D372DE501CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB91F630ED7D503FFF6C1FF2C71EAC23;
+			remoteInfo = "Pods-VMSIP_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0146A8321325EC6AD2CA32C345951CD5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		03EC1D02748920ABE559039D857DBE2C /* VMSIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VMSIP.swift; path = VMSIP/Classes/VMSIP.swift; sourceTree = "<group>"; };
+		0CC7416E091F7E74EFBA7FD85DDD4C39 /* VMSIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VMSIP.framework; path = VMSIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAED8B190D21A31451E4FF285A553E6 /* Pods-VMSIP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VMSIP_Tests-dummy.m"; sourceTree = "<group>"; };
+		1226CDD10C5C078CCB938C76928A5CBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		132E204679CA16FDA38282773A5825B5 /* Pods-VMSIP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VMSIP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		13BF89D4C4030861BB8423F3B1CD7368 /* liblinphone_tester */ = {isa = PBXFileReference; includeInIndex = 1; name = liblinphone_tester; path = "linphone-sdk/apple-darwin/Resources/liblinphone_tester"; sourceTree = "<group>"; };
+		1539A5327921DCF3F75F19F64687E703 /* Pods-VMSIP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VMSIP_Example.modulemap"; sourceTree = "<group>"; };
+		16F9A0D7EE84CDBDF4418EE8A1A1BD14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		1BFDDE96BDE7EE0867ECC28B7C8EE375 /* Pods-VMSIP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VMSIP_Example-umbrella.h"; sourceTree = "<group>"; };
+		1D68D9023E645EABE1A4D1D4CD74E29B /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		1E5A225E00C80F0EA67BB76C5819F9E9 /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = linphone.framework; path = "linphone-sdk/apple-darwin/Frameworks/linphone.framework"; sourceTree = "<group>"; };
+		1F279183504F2FD6AFB408D9EC45663C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		259280EE4FFBBB1738DC10F99B84F3A7 /* lime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lime.framework; path = "linphone-sdk/apple-darwin/Frameworks/lime.framework"; sourceTree = "<group>"; };
+		25CC5D13F13121A041357ACFCBBBDBB8 /* msamr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msamr.framework; path = "linphone-sdk/apple-darwin/Frameworks/msamr.framework"; sourceTree = "<group>"; };
+		2758444A2C89012360065D7DC507C15E /* linphone-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "linphone-sdk-Info.plist"; sourceTree = "<group>"; };
+		2C3779B7A78096E0000D800DE4851C84 /* linphone-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "linphone-sdk-prefix.pch"; sourceTree = "<group>"; };
+		2CC3032F638F9C983A1FECC83FF70E0C /* VMSIP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VMSIP-umbrella.h"; sourceTree = "<group>"; };
+		32D4867BA78D12B60F06C440BA13F1AD /* linphone-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "linphone-sdk-umbrella.h"; sourceTree = "<group>"; };
+		344194F56FF20838B84E521847459605 /* Pods_VMSIP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VMSIP_Example.framework; path = "Pods-VMSIP_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B2C5E2D6B766A203C219841D4B2AD36 /* linphone-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "linphone-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		4068C158007D74C42C7A487F0D1E0A94 /* bctoolbox-ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bctoolbox-ios.framework"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/bctoolbox-ios.framework"; sourceTree = DEVELOPER_DIR; };
+		455597676334BE39D99856D89BBC37AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46B4AC001C35BF9BE1699ECD0178542D /* msx264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msx264.framework; path = "linphone-sdk/apple-darwin/Frameworks/msx264.framework"; sourceTree = "<group>"; };
+		477D00EB38D3C5DD91FD655CF05E685C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		47EE3D8F073FED4100171D386888D4A9 /* mswebrtc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mswebrtc.framework; path = "linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework"; sourceTree = "<group>"; };
+		49D44A7DCF4C610CC9B5E740C2C0049C /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		4E3123472CCB283DC0EBA7D1D66E0BF9 /* VMSIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VMSIP.debug.xcconfig; sourceTree = "<group>"; };
+		50B6109C14BBC5278BE026FC1E3C74C9 /* limetester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = limetester.framework; path = "linphone-sdk/apple-darwin/Frameworks/limetester.framework"; sourceTree = "<group>"; };
+		539005CE46E218BA593D08083E063227 /* LinphoneWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinphoneWrapper.swift; path = "linphone-sdk/apple-darwin/share/linphonesw/LinphoneWrapper.swift"; sourceTree = "<group>"; };
+		56BCC2994783F3FB59F69396CEC3B3C4 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5AAD9CEDFB1F4AB489C2599A3410B8AC /* Pods-VMSIP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VMSIP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF492D03A59F3DD40B058B085F4CD34 /* mscodec2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mscodec2.framework; path = "linphone-sdk/apple-darwin/Frameworks/mscodec2.framework"; sourceTree = "<group>"; };
+		5C99AE8EB5304A9E6CF2D5819C7DD323 /* Pods-VMSIP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VMSIP_Example-dummy.m"; sourceTree = "<group>"; };
+		5D0E5F4EFAE307554C402B2F261061DE /* Pods-VMSIP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VMSIP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F932396AF2F430AB071F9674808C15F /* Pods-VMSIP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VMSIP_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6225CAB256B300C6D4421119E84F6C2C /* Pods-VMSIP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VMSIP_Tests.modulemap"; sourceTree = "<group>"; };
+		63B1802DC07AD7AD0B82499D0D434975 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		656ECD26EF9E1F5B9E6E95AF7166DBE6 /* VMSIP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VMSIP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65AD2D5132629989A5098FC3337790D3 /* belle-sip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "belle-sip.framework"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/belle-sip.framework"; sourceTree = DEVELOPER_DIR; };
+		65CC89BE46AF3487205AB08DFF0DF442 /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bctoolbox.framework; path = "linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework"; sourceTree = "<group>"; };
+		6D6CCDE5B6CCF8FC7A64E90C627C5DFE /* mssilk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mssilk.framework; path = "linphone-sdk/apple-darwin/Frameworks/mssilk.framework"; sourceTree = "<group>"; };
+		6EF5ED5F9BB77756F21F752A30564ACE /* Pods-VMSIP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VMSIP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6F275A573220F99FA8126BAF93FE89A6 /* bctoolbox-ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bctoolbox-ios.framework"; path = "linphone-sdk/apple-darwin/Frameworks/bctoolbox-ios.framework"; sourceTree = "<group>"; };
+		700A03091435C29F141CF785058ED715 /* linphonetester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = linphonetester.framework; path = "linphone-sdk/apple-darwin/Frameworks/linphonetester.framework"; sourceTree = "<group>"; };
+		701CC22DD388E261ACAE2854F4E301ED /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		7080E13DE8FE93E1C3B7E9305BA73577 /* belr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = belr.framework; path = "linphone-sdk/apple-darwin/Frameworks/belr.framework"; sourceTree = "<group>"; };
+		7AE7C6F47C632CF03B76B6885127B694 /* VMSIP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VMSIP-Info.plist"; sourceTree = "<group>"; };
+		7C6C170EF87151062453F8BF66311CDE /* Pods_VMSIP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VMSIP_Tests.framework; path = "Pods-VMSIP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7532E959D2042672F7AC4D9AC11DFE /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		82F9B538E7ED5DFF0A1F74745C363122 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		8AA1A8910950D30B4F1FF25C697317DC /* VMSIP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VMSIP-prefix.pch"; sourceTree = "<group>"; };
+		8C4DA29AE4B60FE6E316E4D55B7E049A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8DEE1BECF0C31CD7C30371F411C8E33E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA7E354A4825134A0F7559CF9B4C456 /* VMSIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VMSIP.release.xcconfig; sourceTree = "<group>"; };
+		9CBB756C3D8C69C6676D69EF2D80AC22 /* Pods-VMSIP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VMSIP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A46A98F664BE975076283A53D2C77DDB /* ortp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ortp.framework; path = "linphone-sdk/apple-darwin/Frameworks/ortp.framework"; sourceTree = "<group>"; };
+		A660AFA9D0CA76887155D6F59B1DB2E5 /* Pods-VMSIP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VMSIP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAE66D0B900CD7936C3198AAD1103904 /* Pods-VMSIP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VMSIP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B02910467AB58825B3E25D749C42AA01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B34EA9EB1C2A9AA86802E87AF7E59ED2 /* Pods-VMSIP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VMSIP_Example-Info.plist"; sourceTree = "<group>"; };
+		B5DE76DD6759499D549015C421633C75 /* Pods-VMSIP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VMSIP_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B89291B76F963167AE7687ED392D4F55 /* Pods-VMSIP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VMSIP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB289C1B8BE3A5D6E5B149B506D08152 /* belle-sip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "belle-sip.framework"; path = "linphone-sdk/apple-darwin/Frameworks/belle-sip.framework"; sourceTree = "<group>"; };
+		BD3E8A6BC93C2DAE126C79E6D4C7FE31 /* linphonesw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = linphonesw.framework; path = "linphone-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F4DA10DF3A6A3DC4033FD277A60024 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		C307B33C813412E7081AF6C080A984B6 /* mediastreamer2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mediastreamer2.framework; path = "linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework"; sourceTree = "<group>"; };
+		C7200813D1E40B7B4AFD0F82CDA712F3 /* msopenh264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msopenh264.framework; path = "linphone-sdk/apple-darwin/Frameworks/msopenh264.framework"; sourceTree = "<group>"; };
+		C8206A6E1D6CBD788355792D4AB22A8A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C9B09EACD8E8363C9EDA2AF60F24D104 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		CECCE555C118C56CE502222432A9CEF6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D024DCC36C616C97E1DF329092C63E00 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D31E8F80075F35ADBFB5F84301564027 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D54B4D60E5969BF5E646F414D2D5D7E4 /* VMSIP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VMSIP.modulemap; sourceTree = "<group>"; };
+		D7C9A2E6F52F81A4952EB0D2950912C0 /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bctoolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/bctoolbox.framework; sourceTree = DEVELOPER_DIR; };
+		D7E2A6E2E51CD6D46D564E957E82EF7F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		DD2BEEA5D9343EE4592AEF93BEDD9490 /* VMSIP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VMSIP-dummy.m"; sourceTree = "<group>"; };
+		DD7B51A2C23050B02D040C92640BC232 /* linphone-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "linphone-sdk.modulemap"; sourceTree = "<group>"; };
+		E3C33C65CA8A13E602254571986240B6 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E474E7C89DB585A1B488931BC0CF76C4 /* linphone-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "linphone-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		E88EC869665DD155422E1870D6E1FE26 /* linphonesw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = linphonesw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92AA59CE327B0B014ED8FE3C3B7167 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F13646D3977A26DF8F5A65648CA87526 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		F27ADF7EA0D364DC36463A4D897B24B4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		F2BE52F75CAB5B8189EDFDF996DAC57C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		F794D339EE879CD2C355E512576A5DFD /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = linphone.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/linphone.framework; sourceTree = DEVELOPER_DIR; };
+		FA6F88E65472045ACCE435C4425A0E2D /* linphone-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "linphone-sdk-dummy.m"; sourceTree = "<group>"; };
+		FB7AB10D0B83ED5310E38228D4A2E4D4 /* bctoolbox-tester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bctoolbox-tester.framework"; path = "linphone-sdk/apple-darwin/Frameworks/bctoolbox-tester.framework"; sourceTree = "<group>"; };
+		FCCA1B3FA7F0E037592FAD2BB2518F62 /* Pods-VMSIP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VMSIP_Tests-Info.plist"; sourceTree = "<group>"; };
+		FE0A490B0D0CFAC900707BC230B8D25E /* belcard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = belcard.framework; path = "linphone-sdk/apple-darwin/Frameworks/belcard.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140FFA07A5FEC2823C6CB3C1E69766FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847298D4F4B3A4B1D5E31CED09D1DC8E /* bctoolbox-ios.framework in Frameworks */,
+				A5A5BEF14E349B88E09968B3BA79F893 /* bctoolbox.framework in Frameworks */,
+				4C376A6CB1C4F8B5281E8AE8B27FBC2B /* belle-sip.framework in Frameworks */,
+				5E4F829D092C715851543F7F5C3CEC43 /* Foundation.framework in Frameworks */,
+				F6B4C1EF26754FEDA1E49889FE5D91AF /* linphone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC29841FDBDA2E4A866E705BA60A988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667155473FDCE3FB7D884772A706B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E5A363DECA866A2F31DED9AFEF9357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB91F1B84B9EA0E84B37E552FBC04920 /* Alamofire.framework in Frameworks */,
+				F9A82FA45D9EC78CD1AAB7067CDFDCFB /* Foundation.framework in Frameworks */,
+				382A96D16C0AC66842510E2A2F31A364 /* linphonesw.framework in Frameworks */,
+				75E3392C317BD85BE5C4EB738677D8D7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85B8BB2475B199D8C5D27262ECA5A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233C6A4B705C8CDC002BF837DB56B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F90703BF74DB683D2C424878E7702F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D5CF47175B668C0F66C8B56B7D9726D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		123B109F546CF00DCE4BBB2E069816B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B51A2C23050B02D040C92640BC232 /* linphone-sdk.modulemap */,
+				FA6F88E65472045ACCE435C4425A0E2D /* linphone-sdk-dummy.m */,
+				2758444A2C89012360065D7DC507C15E /* linphone-sdk-Info.plist */,
+				2C3779B7A78096E0000D800DE4851C84 /* linphone-sdk-prefix.pch */,
+				32D4867BA78D12B60F06C440BA13F1AD /* linphone-sdk-umbrella.h */,
+				3B2C5E2D6B766A203C219841D4B2AD36 /* linphone-sdk.debug.xcconfig */,
+				E474E7C89DB585A1B488931BC0CF76C4 /* linphone-sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/linphone-sdk";
+			sourceTree = "<group>";
+		};
+		139A0DC49AD768DB168B142F99B5F339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE1BECF0C31CD7C30371F411C8E33E /* Alamofire.framework */,
+				E88EC869665DD155422E1870D6E1FE26 /* linphonesw.framework */,
+				5FA202683050EFEBBB74DE06FCCE7697 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		160305C96EFC88B8748CB2089180147A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				82F9B538E7ED5DFF0A1F74745C363122 /* AFError.swift */,
+				477D00EB38D3C5DD91FD655CF05E685C /* Alamofire.swift */,
+				E3C33C65CA8A13E602254571986240B6 /* DispatchQueue+Alamofire.swift */,
+				D024DCC36C616C97E1DF329092C63E00 /* MultipartFormData.swift */,
+				701CC22DD388E261ACAE2854F4E301ED /* NetworkReachabilityManager.swift */,
+				F27ADF7EA0D364DC36463A4D897B24B4 /* Notifications.swift */,
+				CECCE555C118C56CE502222432A9CEF6 /* ParameterEncoding.swift */,
+				56BCC2994783F3FB59F69396CEC3B3C4 /* Request.swift */,
+				1F279183504F2FD6AFB408D9EC45663C /* Response.swift */,
+				C1F4DA10DF3A6A3DC4033FD277A60024 /* ResponseSerialization.swift */,
+				EE92AA59CE327B0B014ED8FE3C3B7167 /* Result.swift */,
+				D31E8F80075F35ADBFB5F84301564027 /* ServerTrustPolicy.swift */,
+				7D7532E959D2042672F7AC4D9AC11DFE /* SessionDelegate.swift */,
+				F2BE52F75CAB5B8189EDFDF996DAC57C /* SessionManager.swift */,
+				F13646D3977A26DF8F5A65648CA87526 /* TaskDelegate.swift */,
+				8C4DA29AE4B60FE6E316E4D55B7E049A /* Timeline.swift */,
+				0146A8321325EC6AD2CA32C345951CD5 /* Validation.swift */,
+				62A46040F90FA2D4E8BEB432A202636A /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		1E1E97F8D8F6831F4D526947970C2DE3 /* app-extension */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2D7CF4C4810837ED9D1E8D3052B5D /* Frameworks */,
+			);
+			name = "app-extension";
+			sourceTree = "<group>";
+		};
+		217BF60210A7EC063DDDDD85C487DD6D /* all-frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D5CF47175B668C0F66C8B56B7D9726D /* Frameworks */,
+				2894DEDCEF8C3AF437B44184326E18CA /* Resources */,
+			);
+			name = "all-frameworks";
+			sourceTree = "<group>";
+		};
+		2894DEDCEF8C3AF437B44184326E18CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D53E6FFB8C938CB52F69C9F6683D077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13BF89D4C4030861BB8423F3B1CD7368 /* liblinphone_tester */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		486A6CF6D586C4878966EB86C46CF0A8 /* basic-frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F90703BF74DB683D2C424878E7702F /* Frameworks */,
+			);
+			name = "basic-frameworks";
+			sourceTree = "<group>";
+		};
+		52CB5971B268D79C723AF9417B8F30E0 /* VMSIP */ = {
+			isa = PBXGroup;
+			children = (
+				03EC1D02748920ABE559039D857DBE2C /* VMSIP.swift */,
+				54D3AB65D61ED7CA2C6CA83AC958DA63 /* Pod */,
+				7BD16A58351906A3A304875E56AE1456 /* Support Files */,
+			);
+			name = VMSIP;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53A259A0B9DE686F3B33420321C2E371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				160305C96EFC88B8748CB2089180147A /* Alamofire */,
+				7A1829B4EB60292F6A266EC5FA213E69 /* linphone-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54D3AB65D61ED7CA2C6CA83AC958DA63 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				455597676334BE39D99856D89BBC37AC /* LICENSE */,
+				1226CDD10C5C078CCB938C76928A5CBF /* README.md */,
+				656ECD26EF9E1F5B9E6E95AF7166DBE6 /* VMSIP.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5FA202683050EFEBBB74DE06FCCE7697 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7C9A2E6F52F81A4952EB0D2950912C0 /* bctoolbox.framework */,
+				4068C158007D74C42C7A487F0D1E0A94 /* bctoolbox-ios.framework */,
+				65AD2D5132629989A5098FC3337790D3 /* belle-sip.framework */,
+				384B9247D480E32999B9E535E1025ED1 /* Foundation.framework */,
+				F794D339EE879CD2C355E512576A5DFD /* linphone.framework */,
+				B02910467AB58825B3E25D749C42AA01 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62A46040F90FA2D4E8BEB432A202636A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B1802DC07AD7AD0B82499D0D434975 /* Alamofire.modulemap */,
+				C8206A6E1D6CBD788355792D4AB22A8A /* Alamofire-dummy.m */,
+				1D68D9023E645EABE1A4D1D4CD74E29B /* Alamofire-Info.plist */,
+				D7E2A6E2E51CD6D46D564E957E82EF7F /* Alamofire-prefix.pch */,
+				C9B09EACD8E8363C9EDA2AF60F24D104 /* Alamofire-umbrella.h */,
+				16F9A0D7EE84CDBDF4418EE8A1A1BD14 /* Alamofire.debug.xcconfig */,
+				49D44A7DCF4C610CC9B5E740C2C0049C /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		6CA2D7CF4C4810837ED9D1E8D3052B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A1829B4EB60292F6A266EC5FA213E69 /* linphone-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				217BF60210A7EC063DDDDD85C487DD6D /* all-frameworks */,
+				1E1E97F8D8F6831F4D526947970C2DE3 /* app-extension */,
+				D376C7D1FED27FB9BCD6DB54C5599FF9 /* app-extension-swift */,
+				486A6CF6D586C4878966EB86C46CF0A8 /* basic-frameworks */,
+				968A0303F601D551B1B791DBB4A982AD /* Frameworks */,
+				2D53E6FFB8C938CB52F69C9F6683D077 /* Resources */,
+				123B109F546CF00DCE4BBB2E069816B3 /* Support Files */,
+			);
+			name = "linphone-sdk";
+			path = "linphone-sdk";
+			sourceTree = "<group>";
+		};
+		7BD16A58351906A3A304875E56AE1456 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54B4D60E5969BF5E646F414D2D5D7E4 /* VMSIP.modulemap */,
+				DD2BEEA5D9343EE4592AEF93BEDD9490 /* VMSIP-dummy.m */,
+				7AE7C6F47C632CF03B76B6885127B694 /* VMSIP-Info.plist */,
+				8AA1A8910950D30B4F1FF25C697317DC /* VMSIP-prefix.pch */,
+				2CC3032F638F9C983A1FECC83FF70E0C /* VMSIP-umbrella.h */,
+				4E3123472CCB283DC0EBA7D1D66E0BF9 /* VMSIP.debug.xcconfig */,
+				8FA7E354A4825134A0F7559CF9B4C456 /* VMSIP.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VMSIP";
+			sourceTree = "<group>";
+		};
+		968A0303F601D551B1B791DBB4A982AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65CC89BE46AF3487205AB08DFF0DF442 /* bctoolbox.framework */,
+				6F275A573220F99FA8126BAF93FE89A6 /* bctoolbox-ios.framework */,
+				FB7AB10D0B83ED5310E38228D4A2E4D4 /* bctoolbox-tester.framework */,
+				FE0A490B0D0CFAC900707BC230B8D25E /* belcard.framework */,
+				BB289C1B8BE3A5D6E5B149B506D08152 /* belle-sip.framework */,
+				7080E13DE8FE93E1C3B7E9305BA73577 /* belr.framework */,
+				259280EE4FFBBB1738DC10F99B84F3A7 /* lime.framework */,
+				50B6109C14BBC5278BE026FC1E3C74C9 /* limetester.framework */,
+				1E5A225E00C80F0EA67BB76C5819F9E9 /* linphone.framework */,
+				700A03091435C29F141CF785058ED715 /* linphonetester.framework */,
+				C307B33C813412E7081AF6C080A984B6 /* mediastreamer2.framework */,
+				25CC5D13F13121A041357ACFCBBBDBB8 /* msamr.framework */,
+				5AF492D03A59F3DD40B058B085F4CD34 /* mscodec2.framework */,
+				C7200813D1E40B7B4AFD0F82CDA712F3 /* msopenh264.framework */,
+				6D6CCDE5B6CCF8FC7A64E90C627C5DFE /* mssilk.framework */,
+				47EE3D8F073FED4100171D386888D4A9 /* mswebrtc.framework */,
+				46B4AC001C35BF9BE1699ECD0178542D /* msx264.framework */,
+				A46A98F664BE975076283A53D2C77DDB /* ortp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6206099E4C38E5EB88D4A40F520CBD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52CB5971B268D79C723AF9417B8F30E0 /* VMSIP */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7129C4B79CE0E42900E026DC8B678DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40D578C207FEA3A28AF22523B6AC920 /* Pods-VMSIP_Example */,
+				AEDCE485381A469BBC5EE2ECE5A6E874 /* Pods-VMSIP_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEDCE485381A469BBC5EE2ECE5A6E874 /* Pods-VMSIP_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6225CAB256B300C6D4421119E84F6C2C /* Pods-VMSIP_Tests.modulemap */,
+				A660AFA9D0CA76887155D6F59B1DB2E5 /* Pods-VMSIP_Tests-acknowledgements.markdown */,
+				5D0E5F4EFAE307554C402B2F261061DE /* Pods-VMSIP_Tests-acknowledgements.plist */,
+				0FAED8B190D21A31451E4FF285A553E6 /* Pods-VMSIP_Tests-dummy.m */,
+				FCCA1B3FA7F0E037592FAD2BB2518F62 /* Pods-VMSIP_Tests-Info.plist */,
+				B5DE76DD6759499D549015C421633C75 /* Pods-VMSIP_Tests-umbrella.h */,
+				132E204679CA16FDA38282773A5825B5 /* Pods-VMSIP_Tests.debug.xcconfig */,
+				6EF5ED5F9BB77756F21F752A30564ACE /* Pods-VMSIP_Tests.release.xcconfig */,
+			);
+			name = "Pods-VMSIP_Tests";
+			path = "Target Support Files/Pods-VMSIP_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A6206099E4C38E5EB88D4A40F520CBD7 /* Development Pods */,
+				139A0DC49AD768DB168B142F99B5F339 /* Frameworks */,
+				53A259A0B9DE686F3B33420321C2E371 /* Pods */,
+				E6277AAD4F3B8B5B6408CC02F2B33C9F /* Products */,
+				A7129C4B79CE0E42900E026DC8B678DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D376C7D1FED27FB9BCD6DB54C5599FF9 /* app-extension-swift */ = {
+			isa = PBXGroup;
+			children = (
+				539005CE46E218BA593D08083E063227 /* LinphoneWrapper.swift */,
+			);
+			name = "app-extension-swift";
+			sourceTree = "<group>";
+		};
+		D40D578C207FEA3A28AF22523B6AC920 /* Pods-VMSIP_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1539A5327921DCF3F75F19F64687E703 /* Pods-VMSIP_Example.modulemap */,
+				9CBB756C3D8C69C6676D69EF2D80AC22 /* Pods-VMSIP_Example-acknowledgements.markdown */,
+				B89291B76F963167AE7687ED392D4F55 /* Pods-VMSIP_Example-acknowledgements.plist */,
+				5C99AE8EB5304A9E6CF2D5819C7DD323 /* Pods-VMSIP_Example-dummy.m */,
+				5F932396AF2F430AB071F9674808C15F /* Pods-VMSIP_Example-frameworks.sh */,
+				B34EA9EB1C2A9AA86802E87AF7E59ED2 /* Pods-VMSIP_Example-Info.plist */,
+				1BFDDE96BDE7EE0867ECC28B7C8EE375 /* Pods-VMSIP_Example-umbrella.h */,
+				5AAD9CEDFB1F4AB489C2599A3410B8AC /* Pods-VMSIP_Example.debug.xcconfig */,
+				AAE66D0B900CD7936C3198AAD1103904 /* Pods-VMSIP_Example.release.xcconfig */,
+			);
+			name = "Pods-VMSIP_Example";
+			path = "Target Support Files/Pods-VMSIP_Example";
+			sourceTree = "<group>";
+		};
+		E6277AAD4F3B8B5B6408CC02F2B33C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				BD3E8A6BC93C2DAE126C79E6D4C7FE31 /* linphonesw.framework */,
+				344194F56FF20838B84E521847459605 /* Pods_VMSIP_Example.framework */,
+				7C6C170EF87151062453F8BF66311CDE /* Pods_VMSIP_Tests.framework */,
+				0CC7416E091F7E74EFBA7FD85DDD4C39 /* VMSIP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1800B004CFACB5F6D986B5BA85977FA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6BE43DA6476FF657E3C3204F9B660 /* VMSIP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2185BA4E4EBDFEEC5017B075B43A52EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DF06F6A44506D8EF4740438679D332 /* linphone-sdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CD98E73071E9059E50ED59F70A849E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC215A55B221D5C6C28A4EE40A92F3D /* Pods-VMSIP_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33E8712DA4904E6FFA04497D74D38DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277F74054175E1C92FB518A958B1C65C /* Pods-VMSIP_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21921160E4B0CD327C6FFF50C9BE1F64 /* linphone-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E78B5E90EA168AD06006A13687ECC00 /* Build configuration list for PBXNativeTarget "linphone-sdk" */;
+			buildPhases = (
+				2185BA4E4EBDFEEC5017B075B43A52EA /* Headers */,
+				92141EB882A3BCCE634885B099E97825 /* Sources */,
+				140FFA07A5FEC2823C6CB3C1E69766FA /* Frameworks */,
+				7F2790FCC33FC616478500011C4DB6E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linphone-sdk";
+			productName = "linphone-sdk";
+			productReference = BD3E8A6BC93C2DAE126C79E6D4C7FE31 /* linphonesw.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C3E54EB93DB85EBE169D92854667E96 /* VMSIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58A7A6B60E76CC5D6A10E7C373C618 /* Build configuration list for PBXNativeTarget "VMSIP" */;
+			buildPhases = (
+				1800B004CFACB5F6D986B5BA85977FA4 /* Headers */,
+				373C4D9725549058CF8E424BE36DA783 /* Sources */,
+				43E5A363DECA866A2F31DED9AFEF9357 /* Frameworks */,
+				D494EF0F4DE7B9DF0C914D109434A6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F501A7566F9070B79E57907C90EC7CDF /* PBXTargetDependency */,
+				E5CA19768805AEFAC0F0D26D4E8A3CF7 /* PBXTargetDependency */,
+			);
+			name = VMSIP;
+			productName = VMSIP;
+			productReference = 0CC7416E091F7E74EFBA7FD85DDD4C39 /* VMSIP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB91F630ED7D503FFF6C1FF2C71EAC23 /* Pods-VMSIP_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8253AECB8FC12FD39CC603660263D26B /* Build configuration list for PBXNativeTarget "Pods-VMSIP_Example" */;
+			buildPhases = (
+				B33E8712DA4904E6FFA04497D74D38DB /* Headers */,
+				1050B8FD1523415ADB80BC30AB1F21A2 /* Sources */,
+				D85B8BB2475B199D8C5D27262ECA5A4A /* Frameworks */,
+				6A0313EDE3EA2D5116ED01C09E30D25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A328DF39EF3E1BA8ED24B0842522CBB0 /* PBXTargetDependency */,
+				4ABD6E9639A71D0B9521ECBC122493CB /* PBXTargetDependency */,
+				234E73631A69337A572568463BAF5A36 /* PBXTargetDependency */,
+			);
+			name = "Pods-VMSIP_Example";
+			productName = "Pods-VMSIP_Example";
+			productReference = 344194F56FF20838B84E521847459605 /* Pods_VMSIP_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4CE770864FB9451E3AB587D71A7C6DF /* Pods-VMSIP_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054DCFED66D524F638BF1711B52E8B83 /* Build configuration list for PBXNativeTarget "Pods-VMSIP_Tests" */;
+			buildPhases = (
+				67CD98E73071E9059E50ED59F70A849E /* Headers */,
+				C58B9BD09739E8686876CEB2CCDDD023 /* Sources */,
+				3CC29841FDBDA2E4A866E705BA60A988 /* Frameworks */,
+				2A98308745503B59F7C4670EB4B8D3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6103DD2C72EE84A8B34566BBD26AFE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-VMSIP_Tests";
+			productName = "Pods-VMSIP_Tests";
+			productReference = 7C6C170EF87151062453F8BF66311CDE /* Pods_VMSIP_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E6277AAD4F3B8B5B6408CC02F2B33C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				21921160E4B0CD327C6FFF50C9BE1F64 /* linphone-sdk */,
+				CB91F630ED7D503FFF6C1FF2C71EAC23 /* Pods-VMSIP_Example */,
+				E4CE770864FB9451E3AB587D71A7C6DF /* Pods-VMSIP_Tests */,
+				9C3E54EB93DB85EBE169D92854667E96 /* VMSIP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A98308745503B59F7C4670EB4B8D3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0313EDE3EA2D5116ED01C09E30D25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2790FCC33FC616478500011C4DB6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B332D0E292B640A060307972236263 /* liblinphone_tester in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D494EF0F4DE7B9DF0C914D109434A6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1050B8FD1523415ADB80BC30AB1F21A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F079EF12268BE702C4D97ED999EA6 /* Pods-VMSIP_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373C4D9725549058CF8E424BE36DA783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15F7FD3E5BDCFB53B0F5C01267C7E03 /* VMSIP-dummy.m in Sources */,
+				80426A42083CF3C53B864F36FA822759 /* VMSIP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92141EB882A3BCCE634885B099E97825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EF6E0847AE7BF17A32B234B4176A01 /* linphone-sdk-dummy.m in Sources */,
+				27305F0A9C4A6B42CED06784CFC68BA4 /* LinphoneWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58B9BD09739E8686876CEB2CCDDD023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2C35BD2AB3A649B49491DD9D85E61E /* Pods-VMSIP_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		234E73631A69337A572568463BAF5A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "linphone-sdk";
+			target = 21921160E4B0CD327C6FFF50C9BE1F64 /* linphone-sdk */;
+			targetProxy = 6C2A226DA8F22E50B40B1EAD3F9FE507 /* PBXContainerItemProxy */;
+		};
+		4ABD6E9639A71D0B9521ECBC122493CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VMSIP;
+			target = 9C3E54EB93DB85EBE169D92854667E96 /* VMSIP */;
+			targetProxy = BDAADE66CEC70AF2835E3282050563C3 /* PBXContainerItemProxy */;
+		};
+		A328DF39EF3E1BA8ED24B0842522CBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = C7BE8D6A07C4E229091F83EEF76C2604 /* PBXContainerItemProxy */;
+		};
+		B6103DD2C72EE84A8B34566BBD26AFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VMSIP_Example";
+			target = CB91F630ED7D503FFF6C1FF2C71EAC23 /* Pods-VMSIP_Example */;
+			targetProxy = DCA3603F530F11F09DD9D372DE501CEC /* PBXContainerItemProxy */;
+		};
+		E5CA19768805AEFAC0F0D26D4E8A3CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "linphone-sdk";
+			target = 21921160E4B0CD327C6FFF50C9BE1F64 /* linphone-sdk */;
+			targetProxy = 06D2CA0E61D973DACD7A1D0C73E0304C /* PBXContainerItemProxy */;
+		};
+		F501A7566F9070B79E57907C90EC7CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = AFD020CDE1E10501BA048EDD801E4AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7F2617CB9213807F3580F9D0E29112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D44A7DCF4C610CC9B5E740C2C0049C /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24ECAAED89BD39A56498919BA4CF10C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF5ED5F9BB77756F21F752A30564ACE /* Pods-VMSIP_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VMSIP_Tests/Pods-VMSIP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VMSIP_Tests/Pods-VMSIP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2544EA1540BC669304B0C01FA691484B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2C5E2D6B766A203C219841D4B2AD36 /* linphone-sdk.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/linphone-sdk/linphone-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/linphone-sdk/linphone-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/linphone-sdk/linphone-sdk.modulemap";
+				PRODUCT_MODULE_NAME = linphonesw;
+				PRODUCT_NAME = linphonesw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E34629840C593E821BBF4796F36D7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F9A0D7EE84CDBDF4418EE8A1A1BD14 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		653A02BCCAB3EAB0C8D2F3BF50E35A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132E204679CA16FDA38282773A5825B5 /* Pods-VMSIP_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VMSIP_Tests/Pods-VMSIP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VMSIP_Tests/Pods-VMSIP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		887A8062F2AD7BF42C1DF80B03718B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA7E354A4825134A0F7559CF9B4C456 /* VMSIP.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VMSIP/VMSIP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VMSIP/VMSIP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VMSIP/VMSIP.modulemap";
+				PRODUCT_MODULE_NAME = VMSIP;
+				PRODUCT_NAME = VMSIP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DDA8A6BA948041137B1165112103E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAD9CEDFB1F4AB489C2599A3410B8AC /* Pods-VMSIP_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VMSIP_Example/Pods-VMSIP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VMSIP_Example/Pods-VMSIP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9005546519A5F4ED50CC4EB242382327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E474E7C89DB585A1B488931BC0CF76C4 /* linphone-sdk.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/linphone-sdk/linphone-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/linphone-sdk/linphone-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/linphone-sdk/linphone-sdk.modulemap";
+				PRODUCT_MODULE_NAME = linphonesw;
+				PRODUCT_NAME = linphonesw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FAB74B7C9A187EE67D94151FDF472BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE66D0B900CD7936C3198AAD1103904 /* Pods-VMSIP_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VMSIP_Example/Pods-VMSIP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VMSIP_Example/Pods-VMSIP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC852CC8DAC98152495EA6DF80BAD973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3123472CCB283DC0EBA7D1D66E0BF9 /* VMSIP.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VMSIP/VMSIP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VMSIP/VMSIP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VMSIP/VMSIP.modulemap";
+				PRODUCT_MODULE_NAME = VMSIP;
+				PRODUCT_NAME = VMSIP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054DCFED66D524F638BF1711B52E8B83 /* Build configuration list for PBXNativeTarget "Pods-VMSIP_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653A02BCCAB3EAB0C8D2F3BF50E35A39 /* Debug */,
+				24ECAAED89BD39A56498919BA4CF10C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E78B5E90EA168AD06006A13687ECC00 /* Build configuration list for PBXNativeTarget "linphone-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544EA1540BC669304B0C01FA691484B /* Debug */,
+				9005546519A5F4ED50CC4EB242382327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8253AECB8FC12FD39CC603660263D26B /* Build configuration list for PBXNativeTarget "Pods-VMSIP_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDA8A6BA948041137B1165112103E94 /* Debug */,
+				FAB74B7C9A187EE67D94151FDF472BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58A7A6B60E76CC5D6A10E7C373C618 /* Build configuration list for PBXNativeTarget "VMSIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC852CC8DAC98152495EA6DF80BAD973 /* Debug */,
+				887A8062F2AD7BF42C1DF80B03718B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E34629840C593E821BBF4796F36D7BF /* Debug */,
+				0F7F2617CB9213807F3580F9D0E29112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

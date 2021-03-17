@@ -1,0 +1,6 @@
+framework module VMSIP {
+  umbrella header "VMSIP-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,10 +1,12 @@
+source "https://gitlab.linphone.org/BC/public/podspec.git"
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'VMSIP_Example' do
   pod 'VMSIP', :path => '../'
-
+  
   target 'VMSIP_Tests' do
     inherit! :search_paths
 

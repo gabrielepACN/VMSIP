@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/VMSIP" "${PODS_CONFIGURATION_BUILD_DIR}/linphone-sdk" "${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VMSIP/VMSIP.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/linphone-sdk/linphonesw.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "UIKit" -framework "VMSIP" -framework "bctoolbox" -framework "bctoolbox-ios" -framework "belle-sip" -framework "linphone" -framework "linphonesw"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

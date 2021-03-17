@@ -1,0 +1,33 @@
+{
+  "name": "VMSIP",
+  "version": "0.1.0",
+  "summary": "VMSIP is a library that integrates VOIP functionalities inside an app.",
+  "description": "VMSIP is a library that integrates VOIP functionalities inside an app.",
+  "homepage": "https://github.com/Gabriele Pavanello/VMSIP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gabriele Pavanello": "gabriele.pavanello@accenture.com"
+  },
+  "source": {
+    "git": "https://github.com/Gabriele Pavanello/VMSIP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.2",
+  "source_files": "VMSIP/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "linphone-sdk": [
+
+    ]
+  },
+  "swift_version": "5.2"
+}

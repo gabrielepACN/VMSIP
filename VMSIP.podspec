@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VMSIP'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VMSIP.'
+  s.summary          = 'VMSIP is a library that integrates VOIP functionalities inside an app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  VMSIP is a library that integrates VOIP functionalities inside an app.
                        DESC
 
-  s.homepage         = 'https://github.com/Gabriele Pavanello/VMSIP'
+  s.homepage         = 'https://github.com/gabrielepACN/VMSIP.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gabriele Pavanello' => 'gabriele.pavanello@accenture.com' }
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_versions = "5.2"
   s.source_files = 'VMSIP/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'Alamofire'
+  s.dependency 'linphone-sdk'
 end
